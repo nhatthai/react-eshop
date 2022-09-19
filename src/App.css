@@ -3,9 +3,14 @@
 }
 
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 .App-header {
@@ -30,4 +35,87 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container > h1, h3 {
+  text-align: center;
+}
+
+.esh-app-header {
+  background-image: center -2.7rem no-repeat, linear-gradient(90deg, #5F6571 0%, #5F6571 35%, #CFC6BF 65%, #CFC6BF 100%);
+  background-size: 94rem, auto;
+  height: 30rem;
+  padding-top: 2.25rem;
+  position: relative;
+  transition: all.35s;
+}
+
+/* .esh-app-header > expanded {
+  background-position: center top;
+  background-size: 87rem, auto;
+  height: 29rem;
+} */
+
+.esh-app-header-promo {
+  opacity: 1;
+}
+
+.esh-app-header-brand {
+  height: auto;
+  width: 92px;
+}
+
+.esh-app-header-promo {
+  bottom: 3.5rem;
+  position: absolute;
+  text-align: center;
+  transition: all .35s;
+  width: 100%;
+}
+
+.esh-app-header-promo-title {
+  display: block;
+  color: rgba(#f3f4f3, .3);
+  font-size: 5rem;
+  line-height: 5rem;
+  word-wrap: none;
+}
+
+.esh-app-header-promo-subtitle {
+  display: block;
+  color: #f3f4f3;
+  font-size: 1.5625rem;
+}
+
+.esh-app-footer {
+  background-color: #81828d;
+  color: #f3f4f3;
+  font-size: 1rem;
+  display: flex;
+  height: 7rem;
+  margin-top: auto;
+}
+
+/* .esh-app-footer {
+  background-color: #81828d;
+  border-top: 1px solid #EEEEEE;
+  margin-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  width: 100%;
+} */
+
+.esh-app-brand {
+  height: auto;
+  width: 104px;
+}
+
+
+.esh-app-footer-brand {
+  height: 50px;
+  width: 230px;
+}
+
+.esh-app-header {
+  margin: 15px;
 }
