@@ -2,7 +2,7 @@ import React from "react";
 import background from '../assets/images/header.jpg';
 import logo_color from '../assets/images/logo_color.svg';
 
-function NavBar() {
+function Header() {
   return (
     <header className="esh-app-header" style={{ backgroundImage: `url(${background})` }}>
       <div className="esh-app-header-promo">
@@ -28,4 +28,4 @@ function NavBar() {
     </header>
   );
 }
-export { NavBar };
+export { Header };

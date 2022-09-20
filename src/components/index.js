@@ -1,5 +1,5 @@
 export * from './About';
 export * from './HomePage';
-export * from './NavBar';
+export * from './Header';
 export * from './NotFound';
 export * from './Footer';
