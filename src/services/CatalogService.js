@@ -1,5 +1,5 @@
 const baseUrl = `http://localhost:5089`;
-const catalogAPI = baseUrl + '/Catalog/items?pageSize=10&pageIndex=0';
+const catalogAPI = baseUrl + '/Catalog/items?pageSize=12&pageIndex=0';
 
 export const catalogService = {
     getAll
