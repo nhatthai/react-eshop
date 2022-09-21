@@ -7,7 +7,7 @@ function Footer() {
       <div className="container">
         <article className="d-flex w-100 h-100 justify-content-between align-items-center">
           <section>
-            <img className="esh-app-footer-brand" src={logo}/>
+            <img className="esh-app-footer-brand" src={logo} alt="Logo" />
           </section>
           <section>
             © e-Shoponcontainers. All rights reserved

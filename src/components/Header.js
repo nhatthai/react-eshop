@@ -1,6 +1,7 @@
 import React from "react";
 import background from '../assets/images/header.jpg';
 import logo_color from '../assets/images/logo_color.svg';
+import Identity from './Identity';
 
 function Header() {
   return (
@@ -14,15 +15,18 @@ function Header() {
       <div className="container">
         <article className="d-flex align-content-center justify-content-between">
           <section>
-            <a>
+            <a href="/#">
               <img
                 className="esh-app-header-brand"
                 src={logo_color}
+                alt="Logo"
               />
             </a>
           </section>
 
-          <section className="d-flex align-content-center justify-content-between"></section>
+          <section className="d-flex justify-content-end">
+            <Identity></Identity>
+          </section>
         </article>
       </div>
     </header>
