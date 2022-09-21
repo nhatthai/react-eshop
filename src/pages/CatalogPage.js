@@ -45,6 +45,11 @@ function CatalogPage() {
             <Grid item xs={6} md={3}>
               <BrandSelect />
             </Grid>
+            <Grid item xs={3} md={1}>
+              <Button>
+                Apply
+              </Button>
+            </Grid>
           </Grid>
         </Box>
       </div>
@@ -68,6 +73,18 @@ function CatalogPage() {
         ))}
       </div>
     </div>
+
+    {
+      loading && (
+        <div>Loading ...</div>
+      )
+    }
+
+    {
+      error && (
+        <div>Error: something wrong </div>
+      )
+    }
     </>
   )
 }
